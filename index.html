@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Complementar - HTML Semântico</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 30%;
+            table-layout: auto;
+
+        }
+
+        table,
+        td,
+        th {
+            height: 30px;
+            border: 1px solid;
+            border-collapse: collapse;
+
+        }
+
+        td,
+        th {
+            font-size: 12px;
+        }
+
+        thead {
+            background-color: rgb(162, 224, 81);
+            color: #1b1b1b;
+            height: 30px;
+            font-size: 12px;
+        }
+
+        article p {
+            width: 50%;
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>INFORMAÇÕES PESSOAIS</h2>
+        <P><b>Nome:</b> Jonathan Maia</P>
+        <P><b>Profissão:</b> Administrador</P>
+        <P><b>Idade:</b> 36 anos</P>
+        <hr>
+    </header>
+
+    <section>
+        <h1>Receita de Bolo Simples</h1>
+        <img src="img/bolo.jpg" alt="Imagem do resultado do bolo da receita">
+        <h2>Passo a Passo</h2>
+        <ol>
+            <li>Bata as claras em neve e reserve.</li>
+            <li>Bata as claras em neve e reserve.</li>
+            <li>Acrescente o leite e a farinha de trigo aos poucos, sem parar de bater.</li>
+            <li>Por último, adicione as claras em neve e o fermento.</li>
+            <li>Despeje a massa em uma forma grande de furo central untada e enfarinhada.</li>
+            <li>Asse em forno médio 180 °C, preaquecido, por aproximadamente 40 minutos ou ao furar o bolo com um garfo, este saia limpo.</li>
+        </ol>
+        <h2>Ingredientes</h2>
+        <ul>
+            <li>2 xícaras (chá) de açúcar</li>
+            <li>4 colheres (sopa) de margarina</li>
+            <li>1 e 1/2 xícara (chá) de leite</li>
+            <li>3 xícaras (chá) de farinha de trigo</li>
+            <li>3 ovos</li>
+            <li>1 colher (sopa) bem cheia de fermento em pó</li>
+        </ul>
+        <blockquote cite="https://www.tudogostoso.com.br/receita/29124-bolo-simples.html">
+            <p>Essa receita foi tirada do site <a href="https://www.tudogostoso.com.br/receita/29124-bolo-simples.html">Tudo Gostoso</a></p>
+        </blockquote>
+        <hr>
+    </section>
+    <section>
+        <h2>Tabela de Produtos e Valores</h2>
+        <table sumary="Desafio Aula 06 - HTML Semântico">
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Preço Unitário</th>
+                    <th>Quantidade em estoque</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HD SATA 80 GB</td>
+                    <td>R$ 85,00</td>
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <td>Pen Drive 2 GB</td>
+                    <td>R$ 15,00</td>
+                    <td>150</td>
+                </tr>
+                <tr>
+                    <td>Impressora Laser Colorida</td>
+                    <td>R$ 613,99</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>Monitor LCD 17'</td>
+                    <td>R$ 309,00</td>
+                    <td>41</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+    </section>
+    <article>
+        <h2>Grandes nomes da tecnologia querem criar dispositivo de IA para desbancar o iPhone</h2>
+        <img src="img/smartphone-tecnologia-912x56.webp" alt="imagem de pessoas com celulares na mão">
+        <p>Um grupo de visionários da tecnologia está empenhado em criar um dispositivo de inteligência artificial (IA) tão inovador que poderia marcar o fim da era dos smartphones e até desafiar a gigante Apple, detentora da maior avaliação de mercado do mundo. Essa notícia surgiu nesta quinta-feira (27), através do site especializado em tecnologia The Information e o renomado jornal britânico Financial Times.</p>
+        <p>De acordo com essas fontes, o CEO da OpenAI, Sam Altman, tem conduzido reuniões confidenciais com o renomado designer Jony Ive, famoso por ser o braço direito de Steve Jobs e por sua contribuição fundamental no desenvolvimento do iPhone, iPad e Apple Watch. Embora os detalhes específicos do projeto sejam escassos, a meta declarada desses encontros é criar um dispositivo de IA, alimentado pela tecnologia do ChatGPT, que seja intuitivo e adequado ao uso diário – um possível sucessor dos smartphones.</p>
+    </article>
+    <blockquote cite="https://www.mundoconectado.com.br/inteligencia-artificial/grandes-nomes-da-tecnologia-querem-criar-dispositivo-de-ia-para-desbancar-o-iphone/">
+        <p>Essa notícia foi tirada do site <a href="https://www.mundoconectado.com.br/inteligencia-artificial/grandes-nomes-da-tecnologia-querem-criar-dispositivo-de-ia-para-desbancar-o-iphone/">Mundo Conectado</a></p>
+    </blockquote>
+    <hr>
+    <footer>
+        <p><b>Desenvolvido por:</b> Jonathan Maia</p>
+        <p><b>Email: </b> jdev@email.com</p>
+        <p><b>Contato: </b> (85) 9999-4444</p>
+    </footer>
+</body>
+
+</html>
