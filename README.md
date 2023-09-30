@@ -1,7 +1,9 @@
-# Desafio Compementar - Aula 06
+# Desafio Complementar - Aula 06
+
 #### Curso - Desenvolvimento web
 
-***
+---
+
 ## Descrição da atividade:
 
 -   Crie uma página seguindo o layout da imagem a seguir (Use HTML semântico nas tags e meta tags);
